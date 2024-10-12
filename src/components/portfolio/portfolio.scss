@@ -12,15 +12,18 @@
     color: orange;
     font-size: 36px;
     z-index: 5;
+    user-select: none;
 
     @include mobile {
       padding-top: calc(100vh - 100px);
       font-size: 24px;
+      z-index: 5;
     }
 
     .progressBar {
       height: 10px;
       background-color: white;
+      z-index: 5;
     }
   }
 
@@ -42,6 +45,7 @@
       align-items: center;
       justify-content: center;
       gap: 50px;
+      z-index: 30;
 
       @include mobile {
         flex-direction: column;
