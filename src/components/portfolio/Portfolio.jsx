@@ -17,13 +17,13 @@ const items = [
     desc: "Thels Impact Consulting focuses on driving change in Nigeria's Higher Education landscape. Developed using Next.js, TailwindCSS, and Node.js, the platform highlights Thels' mission to address the pressing issues in the HigherEd system by providing consulting services. The website features a modern and responsive design, allowing users to book sessions, explore services, and stay informed about the company's projects and impact.",
     buttonLink: "https://www.thelsimpactconsulting.com/",
   },
-  // {
-  //   id: 3,
-  //   title: "Vanilla JS App",
-  //   img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  //   buttonLink: "www.unleashified.com",
-  // },
+  {
+    id: 3,
+    title: "HooBank",
+    img: "/bank.png",
+    desc: "I developed a sleek, modern landing page for HooBank, a fintech startup, using ReactJS and Tailwind CSS. The design features dynamic 3D card visuals, responsive layouts, and an intuitive user interface. I integrated smooth hover effects and animations to enhance interactivity, while ensuring the page remains responsive across devices. The project showcases my ability to build visually compelling web interfaces with a focus on user experience and performance.",
+    buttonLink: "https://modern-bank-app-mr21.onrender.com",
+  },
   // {
   //   id: 4,
   //   title: "Music App",

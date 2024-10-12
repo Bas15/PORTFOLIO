@@ -32,8 +32,9 @@
     overflow: hidden;
 
     .wrapper {
-      max-width: 1366px;
-      height: 100%;
+      // max-width: 1366px;
+      max-width: 90%;
+      height: 100dvh;
       margin: auto;
       display: flex;
       align-items: center;
@@ -42,6 +43,7 @@
 
       @include mobile {
         flex-direction: column;
+        gap: 10px;
       }
 
       .imageContainer {

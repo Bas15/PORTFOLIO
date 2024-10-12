@@ -2,6 +2,8 @@ import { FaLinkedin } from "react-icons/fa";
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import { FaSquareXTwitter, FaSquareYoutube } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -15,19 +17,29 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
         ></motion.span>
         <div className="social">
-          <a href="https://www.linkedin.com/in/awoleyebolaji/">
+          <a
+            href="https://www.linkedin.com/in/awoleyebolaji/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {/* <img src="/facebook.png" alt="" /> */}
             <FaLinkedin size={20} color="blue" />
           </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
+          <a
+            href="https://x.com/aval_stephen"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {/* <img src="/instagram.png" alt="" /> */}
+            <FaSquareXTwitter size={20} />
           </a>
           <a href="#">
-            <img src="/youtube.png" alt="" />
+            {/* <img src="/youtube.png" alt="" /> */}
+            <IoLogoYoutube size={24} color="red" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <img src="/dribbble.png" alt="" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
