@@ -76,7 +76,7 @@
       width: 60%;
       top: unset;
       bottom: 0;
-      margin: auto;
+      margin-right: 100px;
     }
 
     img {
@@ -94,6 +94,7 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
+    user-select: none;
     z-index: 5; /* Lower the z-index of the sliding text */
   }
 }
