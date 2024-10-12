@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const variants = {
   open: {
@@ -25,8 +26,8 @@ const itemVariants = {
 };
 
 const Links = () => {
-  const items = ["Homepage","Portfolio", "Contact", "About"];
-//  "Services", 
+  const items = ["Homepage", "Portfolio", "Contact"];
+  //  "Services",  "About"
   return (
     <motion.div className="links" variants={variants}>
       {items.map((item) => (
@@ -40,6 +41,19 @@ const Links = () => {
           {item}
         </motion.a>
       ))}
+
+      <span className="viewcv">
+        <motion.a
+          href="https://bit.ly/3FoN0hp"
+          target="_blank"
+          rel="noopener noreferrer"
+          variants={itemVariants}
+          whileHover={{ scale: 1.0 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          Resume <FiArrowUpRight size={17} />
+        </motion.a>
+      </span>
     </motion.div>
   );
 };
