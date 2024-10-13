@@ -58,8 +58,8 @@ const Hero = () => {
                 See the Latest Works
               </motion.button>
             </a>
-            <a href="#Contact">
-              <motion.button variants={textVariants}>Contact Me</motion.button>
+            <a href="https://calendly.com/bolajistephen72/30min">
+              <motion.button variants={textVariants}>Book A Session</motion.button>
             </a>
           </motion.div>
 
