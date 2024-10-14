@@ -1,5 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import { PopupButton } from "react-calendly";
 
 const textVariants = {
   initial: {
@@ -58,9 +59,16 @@ const Hero = () => {
                 See the Latest Works
               </motion.button>
             </a>
-            <a href="https://calendly.com/bolajistephen72/30min">
-              <motion.button variants={textVariants}>Book A Session</motion.button>
-            </a>
+            {/* <a href="https://calendly.com/bolajistephen72/30min">
+              <motion.button variants={textVariants}>
+                Book A Session
+              </motion.button>
+            </a> */}
+            <PopupButton
+              url="https://calendly.com/bolajistephen72/30min"
+              rootElement={document.getElementById("root")}
+              text="Book A Session"
+            />
           </motion.div>
 
           <motion.img
